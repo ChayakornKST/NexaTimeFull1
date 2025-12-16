@@ -55,7 +55,7 @@ export default function LoginPage({ onLogin }) {
 
         {/* Username */}
         <div className="w-full flex items-center rounded-lg mb-4 px-3 py-2 bg-white/90 shadow-sm">
-          <img src="/image/user.png" className="w-5 opacity-60 mr-2" />
+          <img src="./images/user.png" className="w-5 opacity-60 mr-2" />
           <input
             type="text"
             placeholder="username"
@@ -67,7 +67,7 @@ export default function LoginPage({ onLogin }) {
 
         {/* Password */}
         <div className="w-full flex items-center rounded-lg mb-6 px-3 py-2 bg-white/90 shadow-sm">
-          <img src="/image/padlock.png" className="w-5 opacity-60 mr-2" />
+          <img src="./images/padlock.png" className="w-5 opacity-60 mr-2" />
           <input
             type="password"
             placeholder="password"
