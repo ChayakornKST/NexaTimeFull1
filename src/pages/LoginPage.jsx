@@ -24,7 +24,7 @@ export default function LoginPage({ onLogin }) {
       className="w-screen h-screen flex items-center justify-center font-sans"
       style={{
         backgroundImage:
-          `linear-gradient(135deg, rgba(10,108,255,0.75), rgba(174,120,249,0.75)), url('/image/5816231.jpg')`,
+          `linear-gradient(135deg, rgba(10,108,255,0.75), rgba(174,120,249,0.75)), url('./images/background.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -38,7 +38,7 @@ export default function LoginPage({ onLogin }) {
 
         {/* LOGO */}
         <img
-          src="/image/Nexatimelogo.png"
+          src="./images/Nexatimelogo.png"
           alt="logo"
           className="w-72 mb-1 mt-0 drop-shadow-md"
         />
