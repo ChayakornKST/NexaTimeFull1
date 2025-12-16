@@ -8,7 +8,7 @@ export default function StudentSidebar({ onClass, onRoom, onLogout }) {
         <div className="flex justify-center mb-2">
           {/* ให้เซฟไฟล์โลโก้ไว้ที่ public/logo.png */}
           <img
-            src="/NexaTimeRVc.png"
+            src="./images/NexaTimeLike.png"
             alt="โลโก้ NexaTime"
             className="w-16 h-16 object-contain rounded-full bg-white shadow-md"
           />
