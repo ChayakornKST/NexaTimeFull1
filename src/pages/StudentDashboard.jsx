@@ -25,7 +25,7 @@ export default function StudentDashboard({ onClass, onRoom, onLogout, onBack }) 
     </button>
 
     <div className="flex items-center gap-2">
-      <img src="/image/student.png" alt="profile" className="h-8" />
+      <img src="./images/student.png" alt="profile" className="h-8" />
       <span className="font-semibold">Student</span>
     </div>
   </div>
@@ -43,7 +43,7 @@ export default function StudentDashboard({ onClass, onRoom, onLogout, onBack }) 
         </p>
       </div>
       <img
-        src="/image/NexaTimeRVc.png"
+        src="./images/NexaTimeRVc.png"
         alt="banner"
         className="h-40 hidden md:block"
       />
